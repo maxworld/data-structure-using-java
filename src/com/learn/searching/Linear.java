@@ -2,9 +2,10 @@ package com.learn.searching;
 
 import com.learn.constants.Constants;
 
-/*
+/**
  * Class to perform linear searching on unsorted array. Complexity for linear search is O(n)
  * 
+ * @author Mayank Bharadwaj
  */
 public class Linear {
 
@@ -35,7 +36,7 @@ public class Linear {
 
 		String result = (searchedElementIndex != -1)
 				? "Element " + linear.getElementToSearch() + " found at index " + searchedElementIndex
-				: "Element " + linear.getElementToSearch() + "not found.";
+				: "Element " + linear.getElementToSearch() + " not found.";
 
 		System.out.println(result);
 	}
